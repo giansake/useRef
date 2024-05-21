@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+}
+.floating-navbar {
+  padding: 2em;
+  font-size: 2rem;
+  background-color: orange;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.ref-component-container {
+  border: 2px solid blue;
+
+  padding: 2em;
+  font-size: 2rem;
+
+  margin-top: 200px;
+}
+
+.counter-container {
+  border: 2px solid blue;
+
+  padding: 2em;
+
+  font-size: 2rem;
+  font-family: sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+}
+
+.counter-container button {
+  padding: 1em;
+  font-size: 1.5rem;
+  width: 100%;
+}
